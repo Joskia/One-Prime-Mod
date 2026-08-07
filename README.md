@@ -8,12 +8,6 @@
 
 Mod para **Plants vs. Zombies** (versión `com.LanPiaoPiao.PlantsVsZombiesES`, ejecutada sobre BepInEx IL2CPP en Android vía FusionCore) que otorga sol infinito y elimina el cooldown de cartas y herramientas.
 
-- **GUID:** `Joskia_Prime`
-- **Nombre:** `OnePrime`
-- **Versión:** `1.0.0`
-- **Framework:** BepInEx (IL2CPP) + Harmony
-- **Target:** `netstandard2.0`
-
 ### Funciones
 
 Todas las opciones vienen **activadas por defecto** (el mod no tiene panel de configuración en juego; se ajustan editando el archivo de config).
@@ -31,7 +25,7 @@ La configuración se guarda en `BepInEx/config/Joskia_Prime.cfg` tras el primer 
 ### Instalación
 
 1. Tener el juego parcheado con BepInEx IL2CPP (vía FusionCore u otro loader compatible).
-2. Copiar `PCZFusionMod.dll` a `BepInEx/plugins/`.
+2. Copiar `OnePrime.dll` a `BepInEx/plugins/`.
 3. Iniciar el juego; el mod se carga automáticamente y genera su archivo de configuración.
 
 ---
@@ -39,12 +33,6 @@ La configuración se guarda en `BepInEx/config/Joskia_Prime.cfg` tras el primer 
 ## English
 
 Mod for **Plants vs. Zombies** (`com.LanPiaoPiao.PlantsVsZombiesES` build, running on BepInEx IL2CPP on Android via FusionCore) that grants infinite sun and removes card/tool cooldowns.
-
-- **GUID:** `Joskia_Prime`
-- **Name:** `OnePrime`
-- **Version:** `1.0.0`
-- **Framework:** BepInEx (IL2CPP) + Harmony
-- **Target:** `netstandard2.0`
 
 ### Features
 
@@ -63,5 +51,5 @@ Configuration is saved to `BepInEx/config/Joskia_Prime.cfg` after the first laun
 ### Installation
 
 1. Have the game patched with BepInEx IL2CPP (via FusionCore or another compatible loader).
-2. Copy `PCZFusionMod.dll` to `BepInEx/plugins/`.
+2. Copy `OnePrime.dll` to `BepInEx/plugins/`.
 3. Launch the game; the mod loads automatically and generates its config file.
