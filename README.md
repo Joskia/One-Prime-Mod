@@ -17,12 +17,13 @@
 
 ## 🇪🇸 Español
 
-> Mod para **Plants vs. Zombies** (versión `com.LanPiaoPiao.PlantsVsZombiesES`, ejecutada sobre BepInEx IL2CPP en Android vía FusionCore) que otorga sol infinito y elimina el cooldown de cartas y herramientas.
+> Mod exclusivo para **PvZ Fusion Android** que otorga sol infinito y elimina el cooldown de cartas y herramientas.
 
 | | |
 |---|---|
 | 🆔 **GUID** | `Joskia_Prime` |
 | 🏷️ **Nombre** | `OnePrime` |
+| 📄 **Archivo** | `OnePrime.dll` |
 | 🔢 **Versión** | `1.0.0` |
 | ⚙️ **Framework** | BepInEx (IL2CPP) + Harmony |
 | 🎯 **Target** | `netstandard2.0` |
@@ -45,24 +46,19 @@ La configuración se guarda en `BepInEx/config/Joskia_Prime.cfg` tras el primer 
 
 ### 🚀 Instalación
 
-1. Tener el juego parcheado con [Launcher-For-PVZ-Fusion-Android](https://github.com/Joskia/Launcher-For-PVZ-Fusion-Android.git) (BepInEx IL2CPP).
-2. Copiar `PCZFusionMod.dll` a `BepInEx/plugins/`.
-3. Iniciar el juego; el mod se carga automáticamente y genera su archivo de configuración.
-
-### ⚠️ Advertencia
-
-Este mod modifica la economía interna del juego (sol y cooldowns) con fines de uso personal/offline. No se recomienda su uso en modos con progresión online o comparativa entre jugadores.
+Tener instalado el launcher [Launcher-For-PVZ-Fusion-Android](https://github.com/Joskia/Launcher-For-PVZ-Fusion-Android.git). Este mod no parchea el juego: es un sideloader que funciona en conjunto con la app. Basta con colocar `OnePrime.dll` en `BepInEx/plugins/` y lanzar el juego desde el launcher; el mod se carga automáticamente y genera su archivo de configuración.
 
 ---
 
 ## 🇬🇧 English
 
-> Mod for **Plants vs. Zombies** (`com.LanPiaoPiao.PlantsVsZombiesES` build, running on BepInEx IL2CPP on Android via FusionCore) that grants infinite sun and removes card/tool cooldowns.
+> Mod exclusively for **PvZ Fusion Android** that grants infinite sun and removes card/tool cooldowns.
 
 | | |
 |---|---|
 | 🆔 **GUID** | `Joskia_Prime` |
 | 🏷️ **Name** | `OnePrime` |
+| 📄 **File** | `OnePrime.dll` |
 | 🔢 **Version** | `1.0.0` |
 | ⚙️ **Framework** | BepInEx (IL2CPP) + Harmony |
 | 🎯 **Target** | `netstandard2.0` |
@@ -85,10 +81,4 @@ Configuration is saved to `BepInEx/config/Joskia_Prime.cfg` after the first laun
 
 ### 🚀 Installation
 
-1. Have the game patched with [Launcher-For-PVZ-Fusion-Android](https://github.com/Joskia/Launcher-For-PVZ-Fusion-Android.git) (BepInEx IL2CPP).
-2. Copy `PCZFusionMod.dll` to `BepInEx/plugins/`.
-3. Launch the game; the mod loads automatically and generates its config file.
-
-### ⚠️ Disclaimer
-
-This mod alters the game's internal economy (sun and cooldowns) for personal/offline use. It is not recommended for online or player-vs-player progression modes.
+Have the [Launcher-For-PVZ-Fusion-Android](https://github.com/Joskia/Launcher-For-PVZ-Fusion-Android.git) launcher installed. This mod does not patch the game: it's a sideloader that works alongside the app. Just place `OnePrime.dll` in `BepInEx/plugins/` and launch the game from the launcher; the mod loads automatically and generates its config file.
