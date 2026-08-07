@@ -34,10 +34,6 @@ La configuración se guarda en `BepInEx/config/Joskia_Prime.cfg` tras el primer 
 2. Copiar `PCZFusionMod.dll` a `BepInEx/plugins/`.
 3. Iniciar el juego; el mod se carga automáticamente y genera su archivo de configuración.
 
-### Advertencia
-
-Este mod modifica la economía interna del juego (sol y cooldowns) con fines de uso personal/offline. No se recomienda su uso en modos con progresión online o comparativa entre jugadores.
-
 ---
 
 ## English
@@ -69,7 +65,3 @@ Configuration is saved to `BepInEx/config/Joskia_Prime.cfg` after the first laun
 1. Have the game patched with BepInEx IL2CPP (via FusionCore or another compatible loader).
 2. Copy `PCZFusionMod.dll` to `BepInEx/plugins/`.
 3. Launch the game; the mod loads automatically and generates its config file.
-
-### Disclaimer
-
-This mod alters the game's internal economy (sun and cooldowns) for personal/offline use. It is not recommended for online or player-vs-player progression modes.
